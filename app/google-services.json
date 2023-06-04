@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "743637772069",
+    "project_id": "expenda-e80c2",
+    "storage_bucket": "expenda-e80c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743637772069:android:9aee0f902a657d46e1dccc",
+        "android_client_info": {
+          "package_name": "com.example.expenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743637772069-hg6jic8vmc7aarb0t8rpou3lvlot54s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expenda",
+            "certificate_hash": "867ad0adb289ec81a2f9f91c8eeae88b763ea182"
+          }
+        },
+        {
+          "client_id": "743637772069-am3drd7g5ogdch0s8rovo7us6dpmgve9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYrpLYjUgWrfrMEjkph-21I-0hyO2hnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743637772069-am3drd7g5ogdch0s8rovo7us6dpmgve9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

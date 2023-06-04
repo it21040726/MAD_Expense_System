@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomCatergoryActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/layoutToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#6200ee"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp"
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/toolBarPic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/profpic"
+            app:civ_border_width="1dp"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_700">
+
+        <TextView
+            android:id="@+id/heTile"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Add Categories"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="+Income"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_below="@+id/heTile">
+
+
+        </TextView>
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_back"
+            android:background="@color/purple_700">
+
+
+        </ImageButton>
+
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="225dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/incomeCTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/categoryEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:drawablePadding="10dp"
+                    android:hint="Category"
+                    android:inputType="textPersonName"
+                    android:padding="10dp">
+
+                </EditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/incomCbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/incomeCTil"
+                android:layout_marginTop="10dp"
+                android:text="Create">
+
+            </Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
